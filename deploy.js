@@ -2,7 +2,7 @@ const HDWalletProvider = require('@truffle/hdwallet-provider');
 const Web3 = require('web3');
 require('dotenv').config();
 
-const { abi, evm } = require('./build/NFT.json');
+const { abi, evm } = require('./build/greet.json');
 const { exit } = require('process');
 
 const provider = new HDWalletProvider(
